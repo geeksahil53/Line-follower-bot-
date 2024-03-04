@@ -1,6 +1,7 @@
 # Line Follower Bot with Arduino Uno
 
 This repository contains the code and necessary information to build a line follower robot using Arduino Uno, an L298 motor driver, two 600 RPM motors, 8 IR sensors, and an 11.1V LiPo battery.
+![WhatsApp Image 2024-03-05 at 01 20 28_e1c20d86](https://github.com/geeksahil53/Line-follower-bot/assets/136248824/67206849-f50c-4cb9-9727-14d6456c642c)
 
 ## Hardware Components
 - **Arduino Uno:** Microcontroller board used as the brain of the robot.
