@@ -13,7 +13,8 @@ This repository contains the code and necessary information to build a line foll
 ## Wiring Diagram
 Ensure the proper connections between the components as per the provided wiring diagram.
 
-![Wiring Diagram](wiring_diagram.png)
+![image](https://github.com/geeksahil53/Line-follower-bot/assets/136248824/33721559-7b6c-4cee-a2c0-27ad9a506933)
+
 
 ## How to Use
 1. **Assemble the Hardware:** Connect the Arduino Uno, L298 motor driver, motors, IR sensors, and LiPo battery as per the wiring diagram.
