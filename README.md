@@ -1,41 +1,32 @@
-# Professional Line Follower Robot with PID Control
+# Line Follower Bot with Arduino Uno
 
-Welcome to the repository for our Professional Line Follower Robot with PID Control. This project showcases an advanced line-following robot designed with precision and efficiency in mind. Using an Arduino Uno microcontroller, an L298 motor driver, two powerful 600 RPM motors, 8 IR sensors, and a dependable 11.1V LiPo battery, our robot employs a PID (Proportional-Integral-Derivative) control algorithm for accurate and smooth navigation along black lines.
+This repository contains the code and necessary information to build a line follower robot using Arduino Uno, an L298 motor driver, two 600 RPM motors, 8 IR sensors, and an 11.1V LiPo battery.
 
-## Key Components
+## Hardware Components
+- **Arduino Uno:** Microcontroller board used as the brain of the robot.
+- **L298 Motor Driver:** H-Bridge motor driver used to control the speed and direction of the motors.
+- **Two 600 RPM Motors:** DC motors used to drive the wheels of the robot.
+- **8 IR Sensors:** Infrared sensors used to detect the black line on the surface.
+- **11.1V LiPo Battery:** Power source for the robot.
 
-- **Arduino Uno**: The core microcontroller unit responsible for processing and executing control commands.
-- **L298 Motor Driver**: An H-Bridge motor driver facilitating precise control over motor speed and direction.
-- **Two 600 RPM Motors**: High-torque DC motors providing robust propulsion for the robot's wheels.
-- **8 IR Sensors**: Infrared sensors strategically positioned to detect and follow black lines accurately.
-- **11.1V LiPo Battery**: A reliable and high-capacity power source ensuring uninterrupted operation.
+## Wiring Diagram
+Ensure the proper connections between the components as per the provided wiring diagram.
 
-## Wiring Schematic
+![Wiring Diagram](wiring_diagram.png)
 
-Please refer to the comprehensive wiring schematic provided in the repository (`wiring_diagram.png`) for accurate and optimized connections between the various components. Proper wiring is essential for optimal performance and reliability.
+## How to Use
+1. **Assemble the Hardware:** Connect the Arduino Uno, L298 motor driver, motors, IR sensors, and LiPo battery as per the wiring diagram.
+2. **Upload the Code:** Upload the provided Arduino code (`line_follower_bot.ino`) to the Arduino Uno using the Arduino IDE.
+3. **Calibrate IR Sensors:** Adjust the sensitivity of the IR sensors to detect the black line accurately. This may require tweaking the thresholds in the code.
+4. **Power Up:** Power up the robot using the 11.1V LiPo battery.
+5. **Place on Track:** Place the line follower bot on a track with a black line to follow.
+6. **Observe Movement:** The robot should start moving along the black line, adjusting its speed and direction based on the sensor inputs.
 
-## Getting Started
-
-1. **Hardware Assembly**: Carefully assemble the components according to the wiring schematic, ensuring precise connections and proper positioning.
-
-2. **Code Upload**: Utilize the Arduino IDE to upload the provided Arduino code (`pid_line_follower_bot.ino`) to the Arduino Uno microcontroller.
-
-3. **Sensor Calibration**: Fine-tune the sensitivity of the IR sensors to accurately detect black lines. Adjust PID parameters within the code for optimal performance and responsiveness.
-
-4. **Power On**: Activate the robot by connecting the 11.1V LiPo battery, providing it with the necessary power to commence operation.
-
-5. **Placement**: Position the line follower robot on a track featuring clearly defined black lines for navigation.
-
-6. **Observation**: Witness the robot's autonomous navigation along the black lines with precision and efficiency, thanks to the PID control algorithm.
-
-## Customization Options
-
-- **PID Parameters**: Modify the PID controller parameters (Proportional, Integral, Derivative gains) within the Arduino code to fine-tune the robot's behavior based on specific requirements and environmental conditions.
-- **Sensor Calibration**: Adjust sensor thresholds and positions to optimize performance across different surfaces and lighting conditions.
-- **Motor Control Logic**: Customize motor speed and direction control algorithms based on PID outputs and sensor inputs for tailored performance.
+## Customization
+- **Sensor Calibration:** Adjust the sensor thresholds and positions to optimize the performance of the line follower bot on different surfaces and lighting conditions.
+- **Motor Speed and Direction:** Modify the motor control logic in the Arduino code to adjust the speed and direction of the motors based on the sensor inputs.
 
 ## Issues and Contributions
+If you encounter any issues or have suggestions for improvements, please create an issue on the repository. Contributions are welcome through pull requests.
 
-Should you encounter any issues or have suggestions for further enhancements, please feel free to open an issue on the repository. We welcome contributions and improvements through pull requests, as we continuously strive to refine and expand the capabilities of our line follower robot.
-
-Thank you for exploring our Professional Line Follower Robot with PID Control. We hope you enjoy the precision and reliability it offers in line-following applications.
+Happy line following!
