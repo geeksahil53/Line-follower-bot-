@@ -13,7 +13,8 @@ This repository contains the code and necessary information to build a line foll
 ## Wiring Diagram
 Ensure the proper connections between the components as per the provided wiring diagram.
 
-![image](https://github.com/geeksahil53/Line-follower-bot/assets/136248824/33721559-7b6c-4cee-a2c0-27ad9a506933)
+![image](https://github.com/geeksahil53/Line-follower-bot/assets/136248824/f499780e-bc81-47c5-bb7a-cafd58b9b79f)
+
 
 
 ## How to Use
